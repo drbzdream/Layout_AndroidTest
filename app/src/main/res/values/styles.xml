@@ -8,4 +8,40 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="styletxtlabel" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="styleHeader" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="EdttxtRegularpass" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:password">true</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="EdttxtRegular" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="btnStyle" parent="@android:style/Widget.Button">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="btnStyleinvert" parent="@android:style/Widget.Button">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">@color/colorAccent</item>
+    </style>
+
 </resources>
